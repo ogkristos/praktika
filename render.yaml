@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: expensetracker
+    env: python
+    buildCommand: ./build.sh
+    startCommand: gunicorn ExpenseTracker.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: ExpenseTracker.settings_render
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        fromDatabase:
+          name: expensetracker_db
+          property: connectionString
+
+databases:
+  - name: expensetracker_db
+    databaseName: expensetracker
+    user: expensetracker_user
