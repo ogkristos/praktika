@@ -1,0 +1,408 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-12 22:03+0500\n"
+"PO-Revision-Date: 2024-06-12 21:21+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\home\models.py:12
+msgid "Food"
+msgstr "Еда"
+
+#: .\home\models.py:13
+msgid "Travel"
+msgstr "Путешествия"
+
+#: .\home\models.py:14
+msgid "Shopping"
+msgstr "Покупки"
+
+#: .\home\models.py:15
+msgid "Necessities"
+msgstr "Предметы первой необходимости"
+
+#: .\home\models.py:16
+msgid "Entertainment"
+msgstr "Развлечения"
+
+#: .\home\models.py:17
+msgid "Others"
+msgstr "Другое"
+
+#: .\home\models.py:20
+msgid "Expense"
+msgstr "Расход"
+
+#: .\home\models.py:21
+msgid "Income"
+msgstr "Доход"
+
+#: .\home\models.py:24
+msgid "Employee"
+msgstr "Сотрудник"
+
+#: .\home\models.py:25
+msgid "Business"
+msgstr "Бизнес"
+
+#: .\home\models.py:26
+msgid "Student"
+msgstr "Студент"
+
+#: .\home\models.py:27
+msgid "Other"
+msgstr "Другое"
+
+#: .\templates\base.html:11 .\templates\base1.html:12 .\templates\base2.html:11
+#: .\templates\home\base.html:11
+msgid "Page Title - SB Admin"
+msgstr "Заголовок страницы - SB Admin"
+
+#: .\templates\base.html:26 .\templates\base1.html:23
+#: .\templates\home\base.html:23 .\templates\home\index.html:115
+#: .\templates\home\stats.html:98
+msgid "Message"
+msgstr "Сообщение"
+
+#: .\templates\base1.html:36 .\templates\base2.html:26
+#: .\templates\home\base.html:36
+msgid "Copyright"
+msgstr "Авторское право"
+
+#: .\templates\base1.html:36 .\templates\base2.html:26
+#: .\templates\home\base.html:36
+msgid "Your Website 2020"
+msgstr "Ваш веб-сайт 2020"
+
+#: .\templates\base1.html:38 .\templates\base2.html:28
+#: .\templates\home\base.html:38
+msgid "Privacy Policy"
+msgstr "Политика конфиденциальности"
+
+#: .\templates\base1.html:40 .\templates\base2.html:30
+#: .\templates\home\base.html:40
+msgid "Terms & Conditions"
+msgstr "Условия использования"
+
+#: .\templates\home\index.html:11 .\templates\home\stats.html:11
+#: .\templates\home\weekly.html:11
+msgid "Dashboard - SB Admin"
+msgstr "Панель управления - SB Admin"
+
+#: .\templates\home\index.html:28 .\templates\home\stats.html:22
+#: .\templates\home\tables.html:19 .\templates\home\weekly.html:21
+msgid "Start Bootstrap"
+msgstr "Начать Bootstrap"
+
+#: .\templates\home\index.html:47 .\templates\home\stats.html:35
+#: .\templates\home\tables.html:33 .\templates\home\weekly.html:32
+msgid "Settings"
+msgstr "Настройки"
+
+#: .\templates\home\index.html:48 .\templates\home\stats.html:36
+#: .\templates\home\tables.html:34 .\templates\home\weekly.html:33
+msgid "Activity Log"
+msgstr "Журнал активности"
+
+#: .\templates\home\index.html:50 .\templates\home\stats.html:38
+#: .\templates\home\tables.html:36 .\templates\home\weekly.html:35
+msgid "Logout"
+msgstr "Выход"
+
+#: .\templates\home\index.html:61 .\templates\home\stats.html:49
+#: .\templates\home\tables.html:46 .\templates\home\weekly.html:45
+msgid "Core"
+msgstr "Основное"
+
+#: .\templates\home\index.html:64 .\templates\home\stats.html:52
+#: .\templates\home\weekly.html:48
+msgid "DASHBOARD"
+msgstr "ПАНЕЛЬ УПРАВЛЕНИЯ"
+
+#: .\templates\home\index.html:66 .\templates\home\index.html:71
+#: .\templates\home\stats.html:54 .\templates\home\stats.html:59
+#: .\templates\home\tables.html:51 .\templates\home\tables.html:56
+#: .\templates\home\weekly.html:50 .\templates\home\weekly.html:57
+msgid "Interface"
+msgstr "Интерфейс"
+
+#: .\templates\home\index.html:70 .\templates\home\stats.html:58
+#: .\templates\home\tables.html:55 .\templates\home\weekly.html:54
+msgid "PROFILE"
+msgstr "ПРОФИЛЬ"
+
+#: .\templates\home\index.html:75 .\templates\home\stats.html:62
+#: .\templates\home\tables.html:59 .\templates\home\weekly.html:60
+msgid "RECORD"
+msgstr "ЗАПИСЬ"
+
+#: .\templates\home\index.html:81 .\templates\home\stats.html:68
+#: .\templates\home\tables.html:65 .\templates\home\weekly.html:66
+msgid "WEEKLY RECORD"
+msgstr "ЕЖЕНЕДЕЛЬНАЯ ЗАПИСЬ"
+
+#: .\templates\home\index.html:85 .\templates\home\stats.html:72
+#: .\templates\home\tables.html:69 .\templates\home\weekly.html:70
+msgid "MONTHLY RECORD"
+msgstr "ЕЖЕМЕСЯЧНАЯ ЗАПИСЬ"
+
+#: .\templates\home\index.html:91 .\templates\home\stats.html:78
+#: .\templates\home\tables.html:74 .\templates\home\weekly.html:75
+msgid "Addons"
+msgstr "Дополнения"
+
+#: .\templates\home\index.html:99 .\templates\home\stats.html:81
+#: .\templates\home\tables.html:103 .\templates\home\weekly.html:78
+msgid "HISTORY"
+msgstr "ИСТОРИЯ"
+
+#: .\templates\home\index.html:107 .\templates\home\stats.html:90
+#: .\templates\home\tables.html:92 .\templates\home\weekly.html:83
+msgid "Logged in as:"
+msgstr "Вход выполнен как:"
+
+#: .\templates\home\index.html:123
+msgid "Expense Tracker"
+msgstr "Учет расходов"
+
+#: .\templates\home\index.html:126
+msgid "My Wallet"
+msgstr "Мой кошелек"
+
+#: .\templates\home\index.html:127
+msgid "Add Expense or Money"
+msgstr "Добавить расход или доход"
+
+#: .\templates\home\index.html:147
+msgid "DataTable Example"
+msgstr "Пример таблицы данных"
+
+#: .\templates\home\index.html:153 .\templates\home\tables.html:125
+msgid "What you added"
+msgstr "Что вы добавили"
+
+#: .\templates\home\index.html:154 .\templates\home\tables.html:126
+msgid "Amount"
+msgstr "Сумма"
+
+#: .\templates\home\index.html:155 .\templates\home\tables.html:127
+msgid "Category"
+msgstr "Категория"
+
+#: .\templates\home\index.html:156 .\templates\home\tables.html:128
+msgid "Date"
+msgstr "Дата"
+
+#: .\templates\home\index.html:170
+msgid "Edit"
+msgstr "Редактировать"
+
+#: .\templates\home\index.html:171
+msgid "Delete"
+msgstr "Удалить"
+
+#: .\templates\home\index.html:181
+msgid "Showing page"
+msgstr "Показана страница"
+
+#: .\templates\home\index.html:181
+msgid "of"
+msgstr "из"
+
+#: .\templates\home\index.html:187
+msgid "first"
+msgstr "первая"
+
+#: .\templates\home\index.html:189
+msgid "Previous"
+msgstr "Предыдущая"
+
+#: .\templates\home\index.html:192
+msgid "Next"
+msgstr "Следующая"
+
+#: .\templates\home\index.html:193
+msgid "Last"
+msgstr "Последняя"
+
+#: .\templates\home\login.html:16
+msgid "Expense Tracker by DataFlair-Login"
+msgstr "Учет расходов от DataFlair - Вход"
+
+#: .\templates\home\login.html:21
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: .\templates\home\login.html:22
+msgid "Enter user name"
+msgstr "Введите имя пользователя"
+
+#: .\templates\home\login.html:25
+msgid "Password"
+msgstr "Пароль"
+
+#: .\templates\home\login.html:26
+msgid "Enter password"
+msgstr "Введите пароль"
+
+#: .\templates\home\login.html:31
+msgid "Remember password"
+msgstr "Запомнить пароль"
+
+#: .\templates\home\login.html:36
+msgid "Login"
+msgstr "Войти"
+
+#: .\templates\home\login.html:39
+msgid "Forgot Password?"
+msgstr "Забыли пароль?"
+
+#: .\templates\home\login.html:42
+msgid "Need an account? Sign up!"
+msgstr "Нужен аккаунт? Зарегистрируйтесь!"
+
+#: .\templates\home\stats.html:107
+msgid "Monthly Expense"
+msgstr "Ежемесячные расходы"
+
+#: .\templates\home\stats.html:109 .\templates\home\tables.html:49
+#: .\templates\home\tables.html:102 .\templates\home\weekly.html:94
+msgid "Dashboard"
+msgstr "Панель управления"
+
+#: .\templates\home\stats.html:110 .\templates\home\weekly.html:95
+msgid "Charts"
+msgstr "Графики"
+
+#: .\templates\home\stats.html:117
+msgid "Monthly Expense Distribution"
+msgstr "Распределение ежемесячных расходов"
+
+#: .\templates\home\stats.html:130
+msgid "Income vs Expense"
+msgstr "Доход и расход"
+
+#: .\templates\home\stats.html:145
+msgid "Monthly Record"
+msgstr "Ежемесячная запись"
+
+#: .\templates\home\stats.html:148
+msgid "Amount to be saved:"
+msgstr "Сумма для сбережения:"
+
+#: .\templates\home\stats.html:149
+msgid "Amount spent:"
+msgstr "Потраченная сумма:"
+
+#: .\templates\home\stats.html:150
+msgid "Amount saved:"
+msgstr "Сохраненная сумма:"
+
+#: .\templates\home\stats.html:151
+msgid "Amount spent more than should be saved:"
+msgstr "Сумма, потраченная сверх того, что должно быть сохранено:"
+
+#: .\templates\home\stats.html:171
+msgid "'Savings'"
+msgstr "'Сбережения'"
+
+#: .\templates\home\stats.html:171 .\templates\home\stats.html:202
+msgid "'Expenses'"
+msgstr "'Расходы'"
+
+#: .\templates\home\stats.html:202
+msgid "'Target Savings'"
+msgstr "'Целевые сбережения'"
+
+#: .\templates\home\stats.html:202
+msgid "'Current Savings'"
+msgstr "'Текущие сбережения'"
+
+#: .\templates\home\stats.html:204
+msgid "'Amount in $'"
+msgstr "'Сумма в $'"
+
+#: .\templates\home\tables.html:11
+msgid "Tables - SB Admin"
+msgstr "Таблицы - SB Admin"
+
+#: .\templates\home\tables.html:82 .\templates\home\tables.html:100
+msgid "History"
+msgstr "История"
+
+#: .\templates\home\tables.html:106
+msgid "From"
+msgstr "С"
+
+#: .\templates\home\tables.html:107
+msgid "To"
+msgstr "По"
+
+#: .\templates\home\tables.html:109
+msgid "search"
+msgstr "поиск"
+
+#: .\templates\home\tables.html:110
+msgid "Search all"
+msgstr "Искать все"
+
+#: .\templates\home\tables.html:118
+msgid "DataTable"
+msgstr "Таблица данных"
+
+#: .\templates\home\weekly.html:92 .\templates\home\weekly.html:103
+msgid "Weekly Expense"
+msgstr "Еженедельные расходы"
+
+#: .\templates\home\weekly.html:116
+msgid "Weekly Summary"
+msgstr "Еженедельная сводка"
+
+#: .\templates\home\weekly.html:119
+msgid "Amount spent this week:"
+msgstr "Сумма, потраченная на этой неделе:"
+
+#: .\templates\home\weekly.html:120
+msgid "Amount saved this week:"
+msgstr "Сумма, сохраненная на этой неделе:"
+
+#~ msgid "Select category-"
+#~ msgstr "Выберите категорию-"
+
+#~ msgid "Submit"
+#~ msgstr "Отправить"
+
+#~ msgid "User Name"
+#~ msgstr "Имя пользователя"
+
+#~ msgid "First Name"
+#~ msgstr "Имя"
+
+#~ msgid "Email"
+#~ msgstr "Электронная почта"
+
+#~ msgid "Enter email address"
+#~ msgstr "Введите адрес электронной почты"
+
+#~ msgid "Profession"
+#~ msgstr "Профессия"
+
+#~ msgid "Confirm Password"
+#~ msgstr "Подтвердите пароль"
+
+#~ msgid "Create User"
+#~ msgstr "Создать пользователя"

@@ -1,0 +1,379 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-12 22:03+0500\n"
+"PO-Revision-Date: 2024-06-12 21:21+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: .\home\models.py:12
+msgid "Food"
+msgstr "Тамақ"
+
+#: .\home\models.py:13
+msgid "Travel"
+msgstr "Саяхат"
+
+#: .\home\models.py:14
+msgid "Shopping"
+msgstr "Шоппинг"
+
+#: .\home\models.py:15
+msgid "Necessities"
+msgstr "Қажеттіліктер"
+
+#: .\home\models.py:16
+msgid "Entertainment"
+msgstr "Ойын-сауық"
+
+#: .\home\models.py:17
+msgid "Others"
+msgstr "Басқа"
+
+#: .\home\models.py:20
+msgid "Expense"
+msgstr "Шығындар"
+
+#: .\home\models.py:21
+msgid "Income"
+msgstr "Табыс"
+
+#: .\home\models.py:24
+msgid "Employee"
+msgstr "Қызметкер"
+
+#: .\home\models.py:25
+msgid "Business"
+msgstr "Бизнес"
+
+#: .\home\models.py:26
+msgid "Student"
+msgstr "Студент"
+
+#: .\home\models.py:27
+msgid "Other"
+msgstr "Басқа"
+
+#: .\templates\base.html:11 .\templates\base1.html:12 .\templates\base2.html:11
+#: .\templates\home\base.html:11
+msgid "Page Title - SB Admin"
+msgstr "Бет тақырыбы - SB Admin"
+
+#: .\templates\base.html:26 .\templates\base1.html:23
+#: .\templates\home\base.html:23 .\templates\home\index.html:115
+#: .\templates\home\stats.html:98
+msgid "Message"
+msgstr "Хабарлама"
+
+#: .\templates\base1.html:36 .\templates\base2.html:26
+#: .\templates\home\base.html:36
+msgid "Copyright"
+msgstr "Авторлық құқық"
+
+#: .\templates\base1.html:36 .\templates\base2.html:26
+#: .\templates\home\base.html:36
+msgid "Your Website 2020"
+msgstr "Сіздің веб-сайтыңыз 2020"
+
+#: .\templates\base1.html:38 .\templates\base2.html:28
+#: .\templates\home\base.html:38
+msgid "Privacy Policy"
+msgstr "Құпиялылық саясаты"
+
+#: .\templates\base1.html:40 .\templates\base2.html:30
+#: .\templates\home\base.html:40
+msgid "Terms & Conditions"
+msgstr "Шарттар мен ережелер"
+
+#: .\templates\home\index.html:11 .\templates\home\stats.html:11
+#: .\templates\home\weekly.html:11
+msgid "Dashboard - SB Admin"
+msgstr "Басқару тақтасы - SB Admin"
+
+#: .\templates\home\index.html:28 .\templates\home\stats.html:22
+#: .\templates\home\tables.html:19 .\templates\home\weekly.html:21
+msgid "Start Bootstrap"
+msgstr "Bootstrap бастау"
+
+#: .\templates\home\index.html:47 .\templates\home\stats.html:35
+#: .\templates\home\tables.html:33 .\templates\home\weekly.html:32
+msgid "Settings"
+msgstr "Параметрлер"
+
+#: .\templates\home\index.html:48 .\templates\home\stats.html:36
+#: .\templates\home\tables.html:34 .\templates\home\weekly.html:33
+msgid "Activity Log"
+msgstr "Әрекеттер журналы"
+
+#: .\templates\home\index.html:50 .\templates\home\stats.html:38
+#: .\templates\home\tables.html:36 .\templates\home\weekly.html:35
+msgid "Logout"
+msgstr "Шығу"
+
+#: .\templates\home\index.html:61 .\templates\home\stats.html:49
+#: .\templates\home\tables.html:46 .\templates\home\weekly.html:45
+msgid "Core"
+msgstr "Негізгі"
+
+#: .\templates\home\index.html:64 .\templates\home\stats.html:52
+#: .\templates\home\weekly.html:48
+msgid "DASHBOARD"
+msgstr "БАСҚАРУ ТАҚТАСЫ"
+
+#: .\templates\home\index.html:66 .\templates\home\index.html:71
+#: .\templates\home\stats.html:54 .\templates\home\stats.html:59
+#: .\templates\home\tables.html:51 .\templates\home\tables.html:56
+#: .\templates\home\weekly.html:50 .\templates\home\weekly.html:57
+msgid "Interface"
+msgstr "Интерфейс"
+
+#: .\templates\home\index.html:70 .\templates\home\stats.html:58
+#: .\templates\home\tables.html:55 .\templates\home\weekly.html:54
+msgid "PROFILE"
+msgstr "ПРОФИЛЬ"
+
+#: .\templates\home\index.html:75 .\templates\home\stats.html:62
+#: .\templates\home\tables.html:59 .\templates\home\weekly.html:60
+msgid "RECORD"
+msgstr "ЖАЗБА"
+
+#: .\templates\home\index.html:81 .\templates\home\stats.html:68
+#: .\templates\home\tables.html:65 .\templates\home\weekly.html:66
+msgid "WEEKLY RECORD"
+msgstr "АПТАЛЫҚ ЖАЗБА"
+
+#: .\templates\home\index.html:85 .\templates\home\stats.html:72
+#: .\templates\home\tables.html:69 .\templates\home\weekly.html:70
+msgid "MONTHLY RECORD"
+msgstr "АЙЛЫҚ ЖАЗБА"
+
+#: .\templates\home\index.html:91 .\templates\home\stats.html:78
+#: .\templates\home\tables.html:74 .\templates\home\weekly.html:75
+msgid "Addons"
+msgstr "Қосымшалар"
+
+#: .\templates\home\index.html:99 .\templates\home\stats.html:81
+#: .\templates\home\tables.html:103 .\templates\home\weekly.html:78
+msgid "HISTORY"
+msgstr "ТАРИХ"
+
+#: .\templates\home\index.html:107 .\templates\home\stats.html:90
+#: .\templates\home\tables.html:92 .\templates\home\weekly.html:83
+msgid "Logged in as:"
+msgstr "Кірген пайдаланушы:"
+
+#: .\templates\home\index.html:123
+msgid "Expense Tracker"
+msgstr "Шығындарды бақылау"
+
+#: .\templates\home\index.html:126
+msgid "My Wallet"
+msgstr "Менің әмияным"
+
+#: .\templates\home\index.html:127
+msgid "Add Expense or Money"
+msgstr "Шығын немесе ақша қосу"
+
+#: .\templates\home\index.html:147
+msgid "DataTable Example"
+msgstr "Деректер кестесінің мысалы"
+
+#: .\templates\home\index.html:153 .\templates\home\tables.html:125
+msgid "What you added"
+msgstr "Сіз қосқан"
+
+#: .\templates\home\index.html:154 .\templates\home\tables.html:126
+msgid "Amount"
+msgstr "Сома"
+
+#: .\templates\home\index.html:155 .\templates\home\tables.html:127
+msgid "Category"
+msgstr "Санат"
+
+#: .\templates\home\index.html:156 .\templates\home\tables.html:128
+msgid "Date"
+msgstr "Күн"
+
+#: .\templates\home\index.html:170
+msgid "Edit"
+msgstr "Өзгерту"
+
+#: .\templates\home\index.html:171
+msgid "Delete"
+msgstr "Жою"
+
+#: .\templates\home\index.html:181
+msgid "Showing page"
+msgstr "Бет көрсетілуде"
+
+#: .\templates\home\index.html:181
+msgid "of"
+msgstr "беттен"
+
+#: .\templates\home\index.html:187
+msgid "first"
+msgstr "бірінші"
+
+#: .\templates\home\index.html:189
+msgid "Previous"
+msgstr "Алдыңғы"
+
+#: .\templates\home\index.html:192
+msgid "Next"
+msgstr "Келесі"
+
+#: .\templates\home\index.html:193
+msgid "Last"
+msgstr "Соңғы"
+
+#: .\templates\home\login.html:16
+msgid "Expense Tracker by DataFlair-Login"
+msgstr "DataFlair шығындарын бақылау - Кіру"
+
+#: .\templates\home\login.html:21
+msgid "Username"
+msgstr "Пайдаланушы аты"
+
+#: .\templates\home\login.html:22
+msgid "Enter user name"
+msgstr "Пайдаланушы атын енгізіңіз"
+
+#: .\templates\home\login.html:25
+msgid "Password"
+msgstr "Құпия сөз"
+
+#: .\templates\home\login.html:26
+msgid "Enter password"
+msgstr "Құпия сөзді енгізіңіз"
+
+#: .\templates\home\login.html:31
+msgid "Remember password"
+msgstr "Құпия сөзді есте сақтау"
+
+#: .\templates\home\login.html:36
+msgid "Login"
+msgstr "Кіру"
+
+#: .\templates\home\login.html:39
+msgid "Forgot Password?"
+msgstr "Құпия сөзді ұмыттыңыз ба?"
+
+#: .\templates\home\login.html:42
+msgid "Need an account? Sign up!"
+msgstr "Тіркелгі қажет пе? Тіркеліңіз!"
+
+#: .\templates\home\stats.html:107
+msgid "Monthly Expense"
+msgstr "Айлық шығын"
+
+#: .\templates\home\stats.html:109 .\templates\home\tables.html:49
+#: .\templates\home\tables.html:102 .\templates\home\weekly.html:94
+msgid "Dashboard"
+msgstr "Басқару тақтасы"
+
+#: .\templates\home\stats.html:110 .\templates\home\weekly.html:95
+msgid "Charts"
+msgstr "Графиктер"
+
+#: .\templates\home\stats.html:117
+msgid "Monthly Expense Distribution"
+msgstr "Айлық шығындар үлестірімі"
+
+#: .\templates\home\stats.html:130
+msgid "Income vs Expense"
+msgstr "Кіріс және шығыс"
+
+#: .\templates\home\stats.html:145
+msgid "Monthly Record"
+msgstr "Айлық жазба"
+
+#: .\templates\home\stats.html:148
+msgid "Amount to be saved:"
+msgstr "Сақталатын сома:"
+
+#: .\templates\home\stats.html:149
+msgid "Amount spent:"
+msgstr "Жұмсалған сома:"
+
+#: .\templates\home\stats.html:150
+msgid "Amount saved:"
+msgstr "Үнемделген сома:"
+
+#: .\templates\home\stats.html:151
+msgid "Amount spent more than should be saved:"
+msgstr "Сақталуы керек сомадан артық жұмсалған сома:"
+
+#: .\templates\home\stats.html:171
+msgid "'Savings'"
+msgstr "'Жинақтар'"
+
+#: .\templates\home\stats.html:171 .\templates\home\stats.html:202
+msgid "'Expenses'"
+msgstr "'Шығындар'"
+
+#: .\templates\home\stats.html:202
+msgid "'Target Savings'"
+msgstr "'Мақсатты жинақтар'"
+
+#: .\templates\home\stats.html:202
+msgid "'Current Savings'"
+msgstr "'Ағымдағы жинақтар'"
+
+#: .\templates\home\stats.html:204
+msgid "'Amount in $'"
+msgstr "'$ бойынша сома'"
+
+#: .\templates\home\tables.html:11
+msgid "Tables - SB Admin"
+msgstr "Кестелер - SB Admin"
+
+#: .\templates\home\tables.html:82 .\templates\home\tables.html:100
+msgid "History"
+msgstr "Тарих"
+
+#: .\templates\home\tables.html:106
+msgid "From"
+msgstr "Бастап"
+
+#: .\templates\home\tables.html:107
+msgid "To"
+msgstr "Дейін"
+
+#: .\templates\home\tables.html:109
+msgid "search"
+msgstr "іздеу"
+
+#: .\templates\home\tables.html:110
+msgid "Search all"
+msgstr "Барлығын іздеу"
+
+#: .\templates\home\tables.html:118
+msgid "DataTable"
+msgstr "Деректер кестесі"
+
+#: .\templates\home\weekly.html:92 .\templates\home\weekly.html:103
+msgid "Weekly Expense"
+msgstr "Апталық шығын"
+
+#: .\templates\home\weekly.html:116
+msgid "Weekly Summary"
+msgstr "Апталық қорытынды"
+
+#: .\templates\home\weekly.html:119
+msgid "Amount spent this week:"
+msgstr "Осы аптада жұмсалған сома:"
+
+#: .\templates\home\weekly.html:120
+msgid "Amount saved this week:"
+msgstr "Осы аптада үнемделген сома:"

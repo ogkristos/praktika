@@ -1,0 +1,43 @@
+# Python pycache:
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore local development settings
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Ignore git and version control
+.git
+.gitignore
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore local media files
+media/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore local development files
+*.log
+local_settings.py
+
+# Ignore test files
+tests/
+test/
+
+# Ignore documentation
+docs/
+*.md
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.swp
+*.swo

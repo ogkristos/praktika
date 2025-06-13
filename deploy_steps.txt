@@ -1,0 +1,36 @@
+Шаги для завершения деплоя на Google Cloud Platform:
+
+1. Перейдите в директорию проекта:
+   cd "c:\Users\berty\OneDrive\Документы\inshakot\Desktop\Expense Tracker\ExpenseTracker"
+
+2. Активируйте App Engine API для вашего проекта (если еще не активировано):
+   gcloud services enable appengine.googleapis.com
+
+3. Выберите регион для App Engine (только при первом деплое):
+   gcloud app create --region=europe-west3
+
+4. Соберите статические файлы:
+   python manage.py collectstatic --noinput
+
+5. Выполните деплой:
+   gcloud app deploy app.yaml --project expensetracker-462801
+
+6. После успешного деплоя, выполните миграции базы данных:
+   gcloud app instances ssh --service=default --version=1 -- python manage.py migrate
+
+7. Создайте суперпользователя (если нужно):
+   gcloud app instances ssh --service=default --version=1 -- python manage.py createsuperuser
+
+8. Ваше приложение будет доступно по адресу:
+   https://expensetracker-462801.ew.r.appspot.com/
+
+Примечания:
+- Если возникают проблемы с подключением к базе данных, убедитесь, что:
+  * IP-адрес App Engine добавлен в разрешенные для Cloud SQL
+  * Учетные данные в app.yaml и settings.py верны
+
+- Для просмотра логов используйте:
+  gcloud app logs tail
+
+- Для остановки приложения:
+  gcloud app versions stop VERSION_ID --service=default

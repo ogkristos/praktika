@@ -1,0 +1,33 @@
+{% load i18n %}
+<div class="word-translation-toggle" style="position: fixed; bottom: 20px; right: 20px; z-index: 9999;">
+    <button id="toggleWordTranslation" class="btn btn-sm btn-primary">
+        <i class="fas fa-language"></i> {% trans "Toggle Word Translation" %}
+    </button>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const toggleButton = document.getElementById('toggleWordTranslation');
+        let translationEnabled = true;
+        
+        toggleButton.addEventListener('click', function() {
+            translationEnabled = !translationEnabled;
+            
+            const wordElements = document.querySelectorAll('.translated-word');
+            wordElements.forEach(el => {
+                if (translationEnabled) {
+                    el.classList.remove('disabled');
+                } else {
+                    el.classList.add('disabled');
+                }
+            });
+            
+            // Update button text
+            if (translationEnabled) {
+                toggleButton.innerHTML = '<i class="fas fa-language"></i> {% trans "Disable Word Translation" %}';
+            } else {
+                toggleButton.innerHTML = '<i class="fas fa-language"></i> {% trans "Enable Word Translation" %}';
+            }
+        });
+    });
+</script>

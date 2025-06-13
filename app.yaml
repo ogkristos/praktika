@@ -1,0 +1,20 @@
+runtime: python39
+
+env_variables:
+  DJANGO_SETTINGS_MODULE: "ExpenseTracker.settings"
+  SECRET_KEY: "4--(d0^o%3vqt#-c(hf+8)a$95z8gbo57xol5pft!%xpve9_zd"
+  DEBUG: "False"
+  ALLOWED_HOSTS: "*"
+  DB_NAME: "django_db"
+  DB_USER: "django_user"
+  DB_PASSWORD: "P@ssw0rdDjango!"
+  DB_HOST: "/cloudsql/expensetracker-462801:europe-west3:django-db-instance"
+
+handlers:
+- url: /static
+  static_dir: static/
+  secure: always
+
+- url: /.*
+  script: auto
+  secure: always

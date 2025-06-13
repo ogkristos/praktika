@@ -1,0 +1,48 @@
+/* Styles for word-by-word translation */
+
+.translated-word {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.translated-word:hover {
+    background-color: rgba(255, 255, 0, 0.2);
+    border-radius: 2px;
+}
+
+.translated-word.active {
+    background-color: rgba(255, 255, 0, 0.4);
+}
+
+/* Tooltip for showing original word */
+.word-tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 1000;
+    display: none;
+}
+
+.translated-word:hover .word-tooltip {
+    display: block;
+}
+
+/* Add a small arrow to the tooltip */
+.word-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
